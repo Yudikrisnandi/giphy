@@ -1,5 +1,6 @@
 import Giphy from '../pages/Giphy';
 import Welcome from '../pages/Welcome';
+import NotFound from '../pages/NotFound';
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
@@ -10,6 +11,10 @@ export const router = createBrowserRouter([
   {
     path: "/giphy",
     element: <Giphy />,
+  },
+  {
+    path: "/*",
+    element: <NotFound />,
   },
 ]);
 
