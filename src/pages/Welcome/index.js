@@ -13,7 +13,7 @@ export default function Welcome(){
   }
   
   return(
-    <div className="h-screen flex items-center justify-center">
+    <div className="h-screen flex items-center justify-center px-3">
       <div className="flex items-center justify-center">
         <div>
           <h1 class="mb-4 text-4xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Welcome to</h1>
