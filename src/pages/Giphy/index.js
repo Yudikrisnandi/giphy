@@ -39,7 +39,6 @@ function Giphy() {
     navigate('/');
   }
 
-  console.log(search)
   return (
     <div className="mt-10">
       <div className="mb-5 w-full flex justify-between">
